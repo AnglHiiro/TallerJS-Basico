@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <form action="" name="formDatos" id="formDatos">
+        <label for="">Nombre: </label>
+        <input type="text" name="Nombre" id="inptNombre">
 
-    <script src="./ciclos.js"></script>
+        <label for="">Apellido: </label>
+        <input type="text" name="apellido" id="inptApellido">
 
+        <div>
+            <label for="">Edad: </label>
+            <input type="text" name="edad" id="inptEdad">
+        </div>
+    </form>
+
+    <div>
+        <label for="" style="font-weight: bold;">Rock: </label>
+        <input type="radio" name="radioGenero" id="radio1" value="1">
+        <label for="" style="font-weight: bold;">Pop: </label>
+        <input type="radio" name="radioGenero" id="radio2" value="2">
+        <label for="" style="font-weight: bold;">Electronica: </label>
+        <input type="radio" name="radioGenero" id="radio3" value="3">
+
+
+        <div>
+            <label for="">Papas: </label>
+            <input type="checkbox" name="radioGenero" id="radio3" value="3">
+        </div>
+
+
+        <strong>Hola</strong>
+        <p>Hola</p>
+
+        <textarea name="txtArea1" id="txtArea1" cols="30" rows="10"></textarea>
+
+        <!-- <select name="" id="" onchange="">
+            <option value="1">Opcion 1</option>
+            <option value="2">Opcion 2</option>
+            <option value="3">Opcion 3</option>
+        </select> -->
+
+        <button name="btnEnviar" id="btnEnviar" onclick="leer()"> Enviar </button>
+    </div>
+
+
+    <script src="./leerForm.js"></script>
 </body>
+
 </html>
