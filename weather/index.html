@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>API DEL CLIMA</h1>
+        <div id="divDatos" style="display: block;">
+            <label for="">Ingresa tu ciudad: </label>
+            <input type="text" name="ciudad" id="ciudad">
+            <button type="button" id="btnCiudad">Enviar</button>
+            <div>
+                <label for="">ó</label>
+            </div>
+            <button type="button" id="btnUbicacion">Ubicacion actual</button>
+        </div>
+        <div id="divResultados" style="display: none;">
+            <label>La temperatura de: <p id="txtCiudad"></p> es: <p id="temperatura"></p></label>
+            <label>El clima de: <p id="txtCiudad2"></p> es: <p id="clima"></p></label>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
